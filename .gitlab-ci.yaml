@@ -8,4 +8,4 @@ Deploy to Heroku:
     - main
   script:
     - gem install dpl
-    - dpl --provider=heroku --app=latihanchapter8 --api-key=d69f2be5-382d-4469-82af-f657570db327
+    - dpl --provider=heroku --app=$HEROKU_APP_PRODUCTION --api-key=$HEROKU_API_KEY
